@@ -1,5 +1,5 @@
 " Make my vim beautiful and functional"
-set syntax on
+syntax on
 set shiftwidth=2
 set tabstop=2
 set showmatch
