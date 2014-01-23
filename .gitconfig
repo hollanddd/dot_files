@@ -4,6 +4,7 @@
 	excludesfile = /Users/dholland/.gitignore_global
 [alias]
 	st = status -sb
+	tree = log --graph --oneline --decorate --color --all
 	standup = log --since '1 day ago' --oneline
 	graph = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
 	everything = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
